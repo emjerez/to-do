@@ -21,17 +21,17 @@
           </td>
           <td class="text-center">
             <button class="btn btn-info" (click)="showEditForm(todo)">
-              <i class="glyphicon glyphicon-pencil"></i>
+              <i class="fas fa-pencil-alt"></i>
             </button>
             <button class="btn btn-danger" (click)="removeToDo(todo)">
-              <i class="glyphicon glyphicon-remove"></i>
+              <i class="fas fa-trash-alt"></i>
             </button>
           </td>
         </tr>
       </tbody>
     </table>
     <button class="btn btn-success" (click)="showNewForm()">
-      <i class="glyphicon glyphicon-plus"></i>
+      <i class="fas fa-plus"></i>
     </button>
     <form *ngIf="showForm()" [formGroup]="formGroup" (ngSubmit)="saveTodo(formGroup.value)">
       <h2>{{headerText}}</h2>

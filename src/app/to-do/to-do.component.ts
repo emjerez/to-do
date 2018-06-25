@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DatePipe } from '@angular/common';
 import { FormBuilder, FormGroup } from '@angular/forms';
 
-import {Todo} from './to-do';
+import { Todo } from './to-do';
 import { TodoService } from './to-do.service';
 
 export enum SaveMode {
