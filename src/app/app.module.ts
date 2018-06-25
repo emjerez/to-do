@@ -5,6 +5,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ToDoComponent } from './to-do/to-do.component';
 
+import { TodoService } from './to-do/to-do.service';
+
 @NgModule({
   declarations: [
     AppComponent,
